@@ -1,4 +1,6 @@
 # OSWA
+*Work in Progress*
+
 Offensive Security Web Assessor (OSWA) WEB-200 Resources 
 
 This is not meant to be a comprehensive list or resource for the OSWA exam but instead reflects what I found to be useful during my journey with the course and exam. 

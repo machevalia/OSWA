@@ -10,6 +10,7 @@ This is not meant to be a comprehensive list or resource for the OSWA exam but i
 
 # Examples
 This folder will contain tool examples and payload examples for discovery.
+* [XSS Examples](https://github.com/machevalia/OSWA/blob/main/Examples/XSS.md)
 
 # Tool Recommendations
 * [Dirsearch](https://www.kali.org/tools/dirsearch/)- I prefer dirsearch over other directory and file brute forcing tools.

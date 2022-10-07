@@ -1,4 +1,4 @@
-#Generic CSRF payload example. 
+# Generic CSRF payload example. 
 
 Saving the payload examples you've created during the course is also useful. This serves as a general guide to writing a CSRF payload.
 

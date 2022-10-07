@@ -1,4 +1,4 @@
-A Few of My Favorite XSS Payloads: 
+# A Few of My Favorite XSS Payloads: 
 
 Most of these are from or variations of [XSS Hunter]{https://xsshunter.com/app} payloads. 
 You can simply modify the host in the payload and run your own web server to both host secondary payloads and check for blind XSS.

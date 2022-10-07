@@ -19,7 +19,7 @@ This folder will contain tool examples and payload examples for discovery.
 * When you believe a CSRF is present, enumerate that possible actions you can get the victim to execute then perform that action yourself, if possible. By performing it yourself you can see how the parameters and values are formatted in your Burp history. Use that data to craft your payload. 
 * Seclists - raft series for discovery are your friend, not just in OffSec courses/exams but in the real-world. 
 * If you're tools support it, route them through BurpSuite so you have the traffic history as well as so you can see the responses. 
-  * Wrote your own script and need to proxy it? I wrote a guide to that [here](https://github.com/machevalia/ProxyPythonBurpSuite)
+  * Have a python script and need to proxy it? I wrote a guide to that [here](https://github.com/machevalia/ProxyPythonBurpSuite)
 
 # Practice Labs/Resources
 * [PortSwigger Academy](https://portswigger.net/web-security) IMO, their content is better at building the fundamentals and understand of the vuln classes than OffSec's content. If you get stuck with a concept using OffSec's materials, check these out. Not all of their content is fully built at the moment (late 2022) but they are always adding new stuff. 

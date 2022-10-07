@@ -12,8 +12,8 @@ This is not meant to be a comprehensive list or resource for the OSWA exam but i
 This folder will contain tool examples and payload examples for discovery.
 * [XSS Examples](https://github.com/machevalia/OSWA/blob/main/Examples/XSS.md)
 
-# Tool Recommendations
-* [Dirsearch](https://www.kali.org/tools/dirsearch/)- I prefer dirsearch over other directory and file brute forcing tools.
+# Alternate Tool Recommendations
+* [Dirsearch](https://www.kali.org/tools/dirsearch/) - I prefer dirsearch over other directory and file brute forcing tools. This is completely a personal preference. 
 
 # Tips & Tricks
 * When running into issues with Gopher protocol requests for SSRFs: spin up a server on your machine and send the request to yourself to see how it is formatted. Make sure that your request is formatted in a way that looks the same as what the server is expecting a client to send. Ex. if you can send a request to a page, look at how the request is formatted in your Burp history then try to make your Gopher request to adopt the same formatting. 

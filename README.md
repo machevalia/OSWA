@@ -58,4 +58,6 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 # Articles
 * [Reconshell.com's Awesome SSRF Write Ups Article](https://reconshell.com/awesome-ssrf-writeups/)
 * [ansar0047's Blind SQL Injection Cheat Sheet](https://ansar0047.medium.com/blind-sql-injection-detection-and-exploitation-cheatsheet-17995a98fed1)
+* [Infosec Writeups SSRF Guide](https://infosecwriteups.com/exploiting-server-side-request-forgery-ssrf-vulnerability-faeb7ddf5d0e)
+* [SQLMap Cheat Sheet](https://web.archive.org/web/20220409102458/https://thedarksource.com/sqlmap-cheat-sheet/)
 

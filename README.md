@@ -11,9 +11,11 @@ This is not meant to be a comprehensive list or resource for the OSWA exam but i
 # Examples
 This folder will contain tool examples and payload examples for discovery.
 * [XSS Examples](https://github.com/machevalia/OSWA/blob/main/Examples/XSS.md)
+* [CSRF Examples](https://github.com/machevalia/OSWA/blob/main/Examples/CSRF.md)
 
-# Alternate Tool Recommendations
-* [Dirsearch](https://www.kali.org/tools/dirsearch/) - I prefer dirsearch over other directory and file brute forcing tools. This is completely a personal preference. 
+# Tool Recommendations
+* [Dirsearch](https://www.kali.org/tools/dirsearch/) - I prefer dirsearch over other directory and file brute forcing tools. This is completely a personal preference.
+* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - I have seen others reference this as a wordlist. While some of their content can be used this way. You really need to read through the payloads, figure out what you need for the job at hand, and then use the chosen payload. These are not spray and pray.
 
 # Tips & Tricks
 * When running into issues with Gopher protocol requests for SSRFs: spin up a server on your machine and send the request to yourself to see how it is formatted. Make sure that your request is formatted in a way that looks the same as what the server is expecting a client to send. Ex. if you can send a request to a page, look at how the request is formatted in your Burp history then try to make your Gopher request to adopt the same formatting. 
@@ -34,7 +36,7 @@ This folder will contain tool examples and payload examples for discovery.
   * [Server-Side Template Injection (SSTI)](https://portswigger.net/web-security/server-side-template-injection)
   * [Directory Traversal](https://portswigger.net/web-security/file-path-traversal)
   * [Insecure Direct Object References (IDOR)](https://portswigger.net/web-security/access-control/idor)
-* Perspective Risk's Practical SQL injection Cheat Sheets. REALLY GOOD. I like their cheatsheets more than any of the others that are out there...sorry pentestmonkey.
+* Perspective Risk's Practical SQL injection Cheat Sheets. REALLY GOOD. I like their cheatsheets more than any of the others that are out there at the moment.
   * [MySQL SQL Injection](https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet/)
   * [MSSQL SQL Injection](https://perspectiverisk.com/mssql-practical-injection-cheat-sheet/)
 * [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial) Thorough SQL Tutorial.
@@ -46,6 +48,7 @@ This folder will contain tool examples and payload examples for discovery.
   * shakabra - PG only
   * hawat - PG only
 * Do the Challenges from the course. They are probably the best examples of what you will see. 
-
+* [HackTricks](https://book.hacktricks.xyz/welcome/readme) - Great resource for all things pentesting but specifically each of the vulnerability classes found in this course is contained within. 
+* [Six2Dez's Pentest Book](https://pentestbook.six2dez.com/enumeration/web) Another great overall resource for pentesting which contains a good deal of information on the specific vulnerability classes found in this course.
 
 # Articles

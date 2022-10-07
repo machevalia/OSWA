@@ -18,6 +18,10 @@ This folder will contain tool examples and payload examples for discovery.
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - I have seen others reference this as a wordlist. While some of their content can be used this way. You really need to read through the payloads, figure out what you need for the job at hand, and then use the chosen payload. These are not spray and pray.
 
 # Tips & Tricks
+* Always forget how to unzip rockyou.txt?
+```
+sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+```
 * When running into issues with Gopher protocol requests for SSRFs: spin up a server on your machine and send the request to yourself to see how it is formatted. Make sure that your request is formatted in a way that looks the same as what the server is expecting a client to send. Ex. if you can send a request to a page, look at how the request is formatted in your Burp history then try to make your Gopher request to adopt the same formatting. 
 * When you believe a CSRF is present, enumerate that possible actions you can get the victim to execute then perform that action yourself, if possible. By performing it yourself you can see how the parameters and values are formatted in your Burp history. Use that data to craft your payload. 
 * Seclists - raft series for discovery are your friend, not just in OffSec courses/exams but in the real-world. 
@@ -52,3 +56,6 @@ This folder will contain tool examples and payload examples for discovery.
 * [Six2Dez's Pentest Book](https://pentestbook.six2dez.com/enumeration/web) Another great overall resource for pentesting which contains a good deal of information on the specific vulnerability classes found in this course.
 
 # Articles
+* [Reconshell.com's Awesome SSRF Write Ups Article](https://reconshell.com/awesome-ssrf-writeups/)
+* [ansar0047's Blind SQL Injection Cheat Sheet](https://ansar0047.medium.com/blind-sql-injection-detection-and-exploitation-cheatsheet-17995a98fed1)
+

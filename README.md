@@ -23,7 +23,7 @@ This folder will contain tool examples and payload examples for discovery.
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 ```
 * When running into issues with Gopher protocol requests for SSRFs: spin up a server on your machine and send the request to yourself to see how it is formatted. Make sure that your request is formatted in a way that looks the same as what the server is expecting a client to send. Ex. if you can send a request to a page, look at how the request is formatted in your Burp history then try to make your Gopher request to adopt the same formatting. 
-* When you believe a CSRF is present, enumerate that possible actions you can get the victim to execute then perform that action yourself, if possible. By performing it yourself you can see how the parameters and values are formatted in your Burp history. Use that data to craft your payload. 
+* When you believe a CSRF is present, enumerate the possible actions you could get the victim to execute and then perform that action yourself, if possible. By performing it yourself you can see how the parameters and values are formatted in your Burp history. Use that data to craft your payload. 
 * Seclists - raft series for discovery are your friend, not just in OffSec courses/exams but in the real-world. 
 * If you're tools support it, route them through BurpSuite so you have the traffic history as well as so you can see the responses. 
   * Have a python script and need to proxy it? I wrote a guide to that [here](https://github.com/machevalia/ProxyPythonBurpSuite)

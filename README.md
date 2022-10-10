@@ -12,6 +12,7 @@ This is not meant to be a comprehensive list or resource for the OSWA exam but i
 This folder will contain tool examples and payload examples for discovery.
 * [XSS Examples](https://github.com/machevalia/OSWA/blob/main/Examples/XSS.md)
 * [CSRF Examples](https://github.com/machevalia/OSWA/blob/main/Examples/CSRF.md)
+* [SQLMap Examples](https://github.com/machevalia/OSWA/blob/main/Examples/SQL%20Injection.md)
 
 # Tool Recommendations
 * [Dirsearch](https://www.kali.org/tools/dirsearch/) - I prefer dirsearch over other directory and file brute forcing tools. This is completely a personal preference.

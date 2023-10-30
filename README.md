@@ -6,7 +6,7 @@ Offensive Security Web Assessor (OSWA) WEB-200 Resources
 This is not meant to be a comprehensive list or resource for the OSWA exam but instead reflects what I found to be useful during my journey with the course and exam or what I would recommend that someone new to web app penetration testing use as additional resources. You can read my write-up about my experience here (TBD). 
 
 # Scripts
-* Python HTTP Server w/CORS Headers - [CORServer.py](https://github.com/machevalia/OSWA/blob/main/Scripts/CORServer.py)
+* Python HTTP Server w/CORS Headers - [CORServer.py](https://github.com/machevalia/OSWA/blob/main/Scripts/CORServer.py) by G0LDEN
 
 # Examples
 This folder will contain tool examples and payload examples for discovery.
